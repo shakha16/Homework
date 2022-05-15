@@ -1,50 +1,71 @@
-// 1
-let str = 'aaa@bbb@ccc'
+let a = prompt('Сколько вам лет?')
 
-console.log(
-    str.replace('@', '!')
-);
+if(a <= 10){
+    alert('Малыш')
+} 
+else if(a <= 20){
+    alert('Парень')
+}
+else if(a <= 30){
+    alert('Мужик')
+}
+else if(a <= 40){
+    alert('Так себе')
+}
+else if(a <= 50){
+    alert('Старый')
+}
+else if(a <= 60){
+    alert('Идите в больницу')
+}
+else if(a <= 70){
+    alert('Вы уже старый')
+}
+else if(a <= 80){
+    alert('Далер ака всё уже ставьте 10😂')
+}
+else{
+    alert('Не будь как бека развивайся👍')
+}
+    
+let b = prompt('Выбирите месяц')
 
-
-// 2
-let row = 'HELLOWORLD'
-
-console.log(
-    row.slice(row.search('H'), row.search('H') + 1) + row.toLowerCase() +
-    row.slice(row.search('e'), row.search('e') + 1) +
-    row.slice(row.search('l'), row.search('l') + 1) +
-    row.slice(row.search('o'), row.search('o') + 1) +
-    row.slice(row.search('w'), row.search('w') + 1) +
-    row.slice(row.search('o'), row.search('o') + 1) +
-    row.slice(row.search('r'), row.search('r') + 1) +
-    row.slice(row.search('l'), row.search('l') + 1) +
-    row.slice(row.search('d'), row.search('d') + 1)
-);
-
-
-// 3
-let qwe = 'Hello, it is HTML not Js'
-
-console.log(
-    qwe.slice(qwe.search('H'), qwe.search('H')+ 13) +
-    qwe.slice(qwe.search('n'), qwe.search('n')+ 7) 
-);
-
-
-// 4
-let a = 'alex'
-a = a.toUpperCase()
-
-console.log(
-    a.slice(a.search('A'), a.search('A') + 1),
-    a.toLowerCase(),
-    a.slice(a.search('l'), a.search('l') + 3)
-);
-
-
-// 5
-let rnd = Math.random()
-
-console.log(
-    rnd.slice(rnd.search(0), rnd.search(0) + 1)
-);
+if(b === '1'){
+    alert('Январь')
+}
+else if(b === '2'){
+    alert('Февраль')
+}
+else if(b === '3'){
+    alert('Март')
+}
+else if(b === '4'){
+    alert('Апрель')
+}
+else if(b === '5'){
+    alert('Май')
+}
+else if(b === '6'){
+    alert('Июнь')
+}
+else if(b === '7'){
+    alert('Июль')
+}
+else if(b === '8'){
+    alert('Август')
+}
+else if(b === '9'){
+    alert('Сентябрь')
+}
+else if(b === '10'){
+    alert('Октябрь')
+}
+else if(b === '11'){
+    alert('Ноябрь')
+}
+else if(b === '12'){
+    alert('Декабрь')
+}
+else{
+    alert('Вам пора к психологу')
+}
