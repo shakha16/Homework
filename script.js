@@ -1,13 +1,15 @@
 let a = prompt('Сколько вам лет?')
-
-if(a <= 10){
+if (a <= 0){
+    alert('Вы не выбрали число')
+}
+else if(a <= 10){
     alert('Малыш')
 } 
 else if(a <= 20){
     alert('Парень')
 }
 else if(a <= 30){
-    alert('Мужик')
+    alert('Мужык')
 }
 else if(a <= 40){
     alert('Так себе')
@@ -31,41 +33,41 @@ else{
 let b = prompt('Выбирите месяц')
 
 if(b === '1'){
-    alert('Январь')
+    alert('Январь | Зима')
 }
 else if(b === '2'){
-    alert('Февраль')
+    alert('Февраль | Зима')
 }
 else if(b === '3'){
-    alert('Март')
+    alert('Март | Весна')
 }
 else if(b === '4'){
-    alert('Апрель')
+    alert('Апрель | Весна')
 }
 else if(b === '5'){
-    alert('Май')
+    alert('Май | Весна')
 }
 else if(b === '6'){
-    alert('Июнь')
+    alert('Июнь | Лето')
 }
 else if(b === '7'){
-    alert('Июль')
+    alert('Июль | Лето')
 }
 else if(b === '8'){
-    alert('Август')
+    alert('Август | Лето')
 }
 else if(b === '9'){
-    alert('Сентябрь')
+    alert('Сентябрь | Осень')
 }
 else if(b === '10'){
-    alert('Октябрь')
+    alert('Октябрь | Осень')
 }
 else if(b === '11'){
-    alert('Ноябрь')
+    alert('Ноябрь | Осень')
 }
 else if(b === '12'){
-    alert('Декабрь')
+    alert('Декабрь | Зима')
 }
 else{
-    alert('Вам пора к психологу')
+    alert('Вы не выбрали месяц')
 }
