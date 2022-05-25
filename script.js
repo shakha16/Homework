@@ -1,23 +1,17 @@
-let str = []
-let num = []
-let bool = []
-let obj = []
-let arr = [1, 2, false, 'hello', 24, 'world', undefined, null, 'error', 22]
-let filter = arr.filter(item => item === str)
-str.push('hello')
-str.push('world')
-str.push('error')
-let filterTwo = arr.filter(item => item === num)
-num.push(1)
-num.push(2)
-num.push(24)
-num.push(22)
-let filterThree = arr.filter(item => item === bool)
-bool.push(false)
-let filterFour = arr.filter(item => item === obj)
-obj.push(undefined)
-obj.push(null)
-console.log(str);
-console.log(num);
-console.log(bool);
-console.log(obj);
+let car = prompt('Какую машину вы хотите')
+
+if(car === 'Gentra'){
+    confirm('Мотор: 1.5, Цвет: Белый⬜, Цена: 1000сум                                                                                                                                                  Хотите купить машину')
+} else if(car === 'Matiz'){
+    confirm('Мотор: 0.5, Цвет: Серый, Цена: 10000сум                                                                                                                                                  Хотите купить машину')
+} else if(car === 'Malibu'){
+    confirm('Мотор: 2.5, Цвет: Чёрный⬛, Цена: 10000$                                                                                                                                                  Хотите купить машину')
+} else if(car === 'Lacetti'){
+    confirm('Мотор: 1.8, Цвет: Синий🟦, Цена: 50000сум                                                                                                                                                  Хотите купить машину')
+} else if(car === 'Maskvich'){
+    confirm('Мотор: 3.5, Цвет: Жёлтый🟨, Цена: 100000&                                                                                                                                                 Хотите купить машину')
+} else if(car === 'Tiko'){
+    confirm('Мотор: 5.5, Цвет: Красный🟥, Цена: 10000сум                                                                                                                                                  Хотите купить машину')
+} else{
+    alert('Смотрите меню там есть машины')
+}
