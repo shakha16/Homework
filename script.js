@@ -238,12 +238,12 @@ let emails = {
 let other = []
 
 for(item of arr) {
-    if(item => item.website.find(item.slice(org))){
-        emails.org.push(item)
-    } else if(item => item.website.find(item.slice(net))){
-        emails.net.push(item)
+    if(item => item.email.find(item.slice(org))){
+        emails.arr.push(item.email)
+    } else if(item => item.email.find(item.slice(net))){
+        emails.arr.push(item)
     } else if(item => item.website.find(item.slice(info))){
-        emails.info.push(item)
+        emails.arr.push(item.website)
     }
 }
 
