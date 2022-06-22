@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333333;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    margin-left: -100px;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 20px;
+    margin-left: -200px;
+}
+.ab{
+    color: #D6D6D6;
+    text-decoration: none;
+}
+.icon{
+    margin-left: 200px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+}
+.search2{
+    width: 50px;
+    height: 40px;
+}
+.buy{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    margin-left: -200px;
+}
+.all{
+    margin-top: 10px;
+    display: -moz-inline-stack;
+}
+.iPhone{
+    font-size: 30px;
+    margin-left: 230px;
+}
+.see{
+    text-decoration: none;
+    color: #0066CC;
+}
+.from{
+    font-size: 20px;
+    margin-left: 250px;
+}
+hr{
+    margin-top: 10px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 150px;
+    background-color: #FBFBFD;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.box{
+    width: 80px;
+    height: 60px;
+    background-color: #FD8EE7;
+    border-radius: 5px 20px 5px 20px;
+}
+.one{
+    margin-left: 5px;
+}
+.special{
+    font-size: 20px;
+}
+.five{
+    margin-right: 5px;
+}
+.iPhone13{
+    margin-left: 200px;
+}
+.shit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.oneshit{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+}
+.twoshit{
+    width: 100vh;
+}
+.new{
+    color: #BF4800;
+    font-size: 20px;
+}
+.buy2{
+    font-size: 45px;
+}
+.get{
+    font-size: 25px;
+}
+.see2{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0066CC;
+}
+.choose{
+    font-size: 20px;
+}
+.wich{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0066CC;
+}
+.pro{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #D2D2D7;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.pro:hover{
+    border: 2px solid #ADABAF;
+}
+.pro2{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #D2D2D7;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.pro2:hover{
+    border: 2px solid #ADABAF;
+}    
+.oneii{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.inch{
+    margin-left: -40px;
+}
+.twoi{
+    width: 250px;
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.w{
+    font-size: 20px;
+}
+.e{
+    margin-left: 100px;
+}
+.ee{
+    width: 280px;
+    height: 20px;
+}
+.hr{
+    width: 500px;
+    margin-top: 30px;
+}
+.btns{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.odin{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 110px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D7;
+    background-color: white;
+}
+.odin:hover{
+    border: 2px solid #ADABAF;
+}
+.odin1{
+    width: 50px;
+    height: 50px;
+}
+.odin2{
+    width: 50px;
+    height: 50px;
+}
+.odin3{
+    width: 50px;
+    height: 50px;
+}
+.odin4{
+    width: 50px;
+    height: 50px;
+}
+.odin5{
+    width: 50px;
+    height: 50px;
+}
+.finish{
+    font-size: 20px;
+}
+.xz{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0066CC;
+}
+.butns{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.fuck{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 110px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D7;
+    background-color: white;
+}
+.fuck:hover{
+    border: 2px solid #ADABAF;
+}
+.forme{
+    font-size: 30px;
+}
+.baa{
+    font-size: 15px;
+    color: #BF4800;
+}
+.digital{
+    display: none;
+}
+.active{
+    width: 700px;
+    height: 800px;
+    background-color: rgb(127, 126, 126);
+    border-radius: 30px;
+    position: relative;
+    z-index: 1000;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.opacity{
+    display: none;
+}
+.actuve2{
+    display: inline;
+}
+.greenn{
+    display: none;
+    margin-left: 200px;
+}
+.maxblue{
+    display: none;
+    margin-left: 200px;
+}
+.maxgold{
+    display: none;
+    margin-left: 200px;
+}
+.maxgraphite{
+    display: none;
+    margin-left: 200px;
+}
+.maxsilver{
+    display: none;
+    margin-left: 200px;
+}
+.active3{
+    display: inline;
+    margin-left: 200px;
+}

@@ -1,246 +1,57 @@
-// let discount = prompt('Какая скидка?')
+// let box = document.getElementsByTagName('div')
+// let bnox_class_old = document.getElementsByClassName('box')
+// let box_id = document.getElementById('open')
 
-// let totalSale = Number
-
-// let total = Number
-
-// let max = Object
-
-// let min = Object
-
-// let average = Number
-
-// let arr = [
-
-//   {
-
-//     name: 'Milk',
-
-//     price: 3.25
-
-//   },
-
-//   {
-
-//     name: 'Coffee',
-
-//     price: 1.5
-
-//   },
-
-//   {
-
-//     name: 'Ice Cream',
-
-//     price: 7.85
-
-//   },
-
-//   {
-
-//     name: 'Tomatos',
-
-//     price: 4.14
-
-//   },
-
-//   {
-
-//     name: 'Onion',
-
-//     price: 2.25
-
-//   }
-
-// ]
-
-// let arr_sale = []
-// let totalPrice = []
-// // 1. Сохранить самый дорогой товар в переменную`max`*
-// // 2. Сохранить самый дешевый товар в переменную`min`*
-// // 3. Сохранить общую цену без скидок в переменную`total`*
-// // 4. Сохранить общую цену со скидкой в переменную`totalSale`*
-// // 5. Сохранить элементы из массива arr с обновленной ценой (цена со скидкой)  переменную `arr_sale`*
-// // 6. Сохранить в переменной`average` среднюю цену всех продуктов без скидок*
-// // * Писать весь код в функции `setup()`*
-// // ТРИ ОЦЕНКИ. ЧИСТОТА КОДА, ЛОГИКА РАБОТЫ, УНИКАЛЬНОСТЬ КОДА*
-
-// const setup = () => {
-//   for (item of arr) {
-//     totalPrice.push(item.price)
-//     item.sale = item.price - item.price * discount / 100
-//   }
-//   max = arr.reduce((a, b) => {
-//     if (a.price > b.price) {
-//       return a
-//     } else {
-//       return b
-//     }
-//   })
-//   min = arr.reduce((a, b) => {
-//     if (a.price < b.price) {
-//       return a
-//     } else {
-//       return b
-//     }
-//   })
-//   totalPrice = totalPrice.reduce(function (a, b) {
-//     return a + b
-//   })
-//   salePrices = Math.round(total / 100 * discount)
-//   arr_sale.push({
-//     name: item.name,
-//     price: item.price / item.price * 100
-//   })
-
-//   console.log(max);
-//   console.log(min);
-//   console.log(arr);
-//   console.log(totalPrice);
-//   console.log(arr.sale);
-// };
-
-// setup()
+// let box_tag = document.querySelector('div')
+// let box_class = document.querySelector('.box')
+// let box_class_all = document.querySelectorAll('.box')
+// let button_class = document.querySelector('#open')
 
 
 
+// let iPhone = document.querySelector('.iPhone13')
+let odin1 = document.querySelector('.odin1')
+let odin2 = document.querySelector('.odin2')
+let odin3 = document.querySelector('.odin3')
+let odin4 = document.querySelector('.odin4')
+let odin5 = document.querySelector('.odin5')
+let two = document.querySelector('.opacity')
+let active3 = document.querySelector('.active3')
+let btn = document.querySelector('.pro')
+let btn2 = document.querySelector('.pro2')
+let sui = document.querySelector('.see2')
+let see = document.querySelector('.see')
+let digital_ = document.querySelector('.digital')
 
-// ИСХОДНЫЕ ДАННЫЕ НЕ ТРОГАТЬ!*
-
-let successful = []
-
-let unSuccessful = []
-
-let taxes = Number
-
-let taxesMax = {}
-
-let taxesMin = {}
-
-// Реальные данные 2021*
-
-let bank = [
-  {
-    name: 'Apple',
-    budget: 1000000,
-    tax: 28,
-    expensesPerYear: [
-      {
-       title: 'Salaries',
-       total: 125000 
-      },
-      {
-        title: 'Utilites',
-        total: 18000, 
-      },
-      {
-       title: 'Rent', 
-       total: 258000 
-      }
-    ]
-  },
-  {
-    name: 'Microsoft',
-    budget: 988000,
-    tax: 21,
-    expensesPerYear: [
-      {
-        title: 'Salaries',
-        total: 148000
-      },
-      {
-        title: 'Utilites',
-        total: 124000,
-      },
-      {
-        title: 'Rent',
-        total: 314000
-      }
-    ]
-  },
-  {
-    name: 'HP',
-    budget: 609000,
-    tax: 14,
-    expensesPerYear: [
-      {
-        title: 'Salaries',
-        total: 414000
-      },
-      {
-        title: 'Utilites',
-        total: 19000,
-      },
-      {
-        title: 'Rent',
-        total: 114400
-      }
-    ]
-  },
-  {
-    name: 'Xiomi',
-    budget: 889500,
-    tax: 17,
-    expensesPerYear: [
-      {
-        title: 'Salaries',
-        total: 318000
-      },
-      {
-        title: 'Utilites',
-        total: 14000,
-      },
-      {
-        title: 'Rent',
-        total: 169000
-      }
-    ]
-  },
-  {
-    name: 'Samsung',
-    budget: 889500,
-    tax: 12,
-    expensesPerYear: [
-      {
-        title: 'Salaries',
-        total: 650400
-      },
-      {
-        title: 'Utilites',
-        total: 29000,
-      },
-      {
-        title: 'Rent',
-        total: 212000
-      }
-    ]
-  },
-]
-
-// 1. Высчитать месячные траты, создав ключ expensesPerMonth в объектах*
-
-// 2. Высчитать отношение трат в месяц к месячному бюджету в процентах, создав ключ procent в объектах. Например компания в месяц зарабатывает 100,000, а тратит 25,000, значит ее ключ procent = 25%*
-
-// 3. Сохранить successful и unsuccessful и добавить туда фирмы, вычитав налог tax*
-
-// 4. Сохранить в переменной taxes общее количество налогов со всех компаний. Например все платят по 20,000 в месяц. В итоге taxes = 100,000*
-
-// 5. Сохранить в переменных taxesMax и taxesMin те, компанию которая больше и меньше всех платит налоги*
-
-// 6. Добавить ключ totalMoney в каждой компании. Эта переменная показывает сколько в итоге осталось денег в компании после вычета всех налогов и трат*
-
-// * Писать весь код в функции `setup()`*
-
-// ТРИ ОЦЕНКИ. ЧИСТОТА КОДА, ЛОГИКА РАБОТЫ, УНИКАЛЬНОСТЬ КОДА*
-
-const setup = () => {
-  for(item of bank){
-    item.expensesPerMonth
-    if(item.expensesPerYear.item){
-      item.total /12 
-    }
-  }
-  console.log(expensesPerYear);
+see.onclick = () => {
+  digital_.classList = "active"
 }
-
-setup()
+sui.onclick = () => {
+  digital_.classList = "active"
+}
+btn.onclick = () =>{
+  two.classList = "active2"
+}
+btn2.onclick = () =>{
+  two.classList = "active2"
+}
+odin1.onclick = () =>{
+  iPhone13.classList = "opacity"
+  greenn.classList = "active3"
+}
+odin2.onclick = () =>{
+  greenn.classList = "greenn"
+  maxsilver.classList = "active3"
+}
+odin3.onclick = () =>{
+  maxsilver.classList = "maxsilver"
+  maxgold.classList = "active3"
+}
+odin4.onclick = () =>{
+  maxgold.classList = "maxgold"
+  maxgraphite.classList = "active3"
+}
+odin5.onclick = () =>{
+  maxgraphite.classList = "maxgraphite"
+  maxblue.classList = "active3"
+}
